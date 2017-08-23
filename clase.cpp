@@ -3,7 +3,7 @@ using namespace std;
 int main ()
 {
     /*
-    //EJERCICIO AÑOS BISIESTOS
+    //EJERCICIO AÃ‘OS BISIESTOS
     int anho;
     cout<<"ingrese el anho "<<endl;
     cin>> anho;
@@ -14,9 +14,18 @@ int main ()
      */
 
     //EJERCICIO NUMEROS PRIMOS
+    
     int num;
     cout<<"ingrese el numero"<<endl;
     cin>>num;
-    if (num%1== 0 && num%num ==0)
-        cout<<"el numero si es primo"<<endl;
+    int a=1, cont=0;
+        while(a<=num)
+        {
+            while (num%a==0)
+                cont++;
+                a++;
+            if (cont == 2)
+                cout<<"numero primo"<<endl;
+        }
+}
 }
