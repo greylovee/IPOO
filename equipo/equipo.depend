@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1508393039 source:c:\users\grettzel\documents\ipoo\equipo\main.cpp
+	<iostream>
+	"jugador.h"
+	"equipo.h"
+	<string.h>
+
+1508389832 c:\users\grettzel\documents\ipoo\equipo\include\jugador.h
+	<iostream>
+
+1508389655 source:c:\users\grettzel\documents\ipoo\equipo\src\jugador.cpp
+	"jugador.h"
+	<iostream>
+
+1508392426 source:c:\users\grettzel\documents\ipoo\equipo\src\equipo.cpp
+	"equipo.h"
+	<iostream>
+
+1508393152 c:\users\grettzel\documents\ipoo\equipo\include\equipo.h
+	"jugador.h"
+	<iostream>
+
