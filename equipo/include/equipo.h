@@ -8,11 +8,14 @@ class equipo
     public:
         string nombre;
         int tam;
-        //jugador jugadores[11];
+        jugador jugadores[11];
+
         equipo();
         equipo(string n,int t);
         void VerNombreE();
-        void SetTam();
+        int getTam();
+        void print();
+
 
 };
 

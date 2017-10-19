@@ -12,10 +12,17 @@ void equipo::VerNombreE()
 
     cout<<"NOMBRE DE EQUIPO:  "<<nombre<<endl;
 }
-void equipo::SetTam()
+int equipo::getTam()
 {
-
+    return tam;
 }
 
+void equipo::print()
+{
+    jugadores[i].setNombre();
+    /*jugadores[i].VerNombre();
+    jugadores[i].VerPosicion();
+    jugadores[i].InAgresividad();*/
 
+}
 

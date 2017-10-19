@@ -15,6 +15,19 @@ class jugador
         void InAgresividad();
         void VerPosicion();
 
+        void setNombre(string n) {
+            nombre = n;
+        }
+        void setPos(string pos){
+            posicion = pos;
+        }
+        void setNum(int n){
+            numero = n;
+        }
+        void setAgg(int n) {
+            agresividad = n;
+        }
+
 
 };
 

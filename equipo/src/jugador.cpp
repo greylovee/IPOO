@@ -2,6 +2,10 @@
 #include <iostream>
 using namespace std;
 
+jugador::jugador() {
+
+}
+
 jugador::jugador(string n,string po,int num,int a){
     nombre=n;
     posicion=po;

@@ -8,21 +8,20 @@ int main()
 {
     equipo e1("Atletico de Madrid",2);
     e1.VerNombreE();
-    //e1.SetTam();
+    e1.getTam();
 
-    //for(int i=0;i<equipo.SetTam();i++){
-        jugador j("griezmann","delantero",7,6);
-        j.VerNombre();
-        j.VerPosicion();
-        j.VerDorsal();
-        j.InAgresividad();
+    for(int i=0;i<e1.getTam();i++){
+        e1.jugadores[0].setNombre("griezmann");
+        e1.jugadores[0].setPos("delantero");
+        e1.jugadores[0].setNum(i);
+        e1.jugadores[0].setAgg(6);
+
     }
 
-    /*jugador j("griezmann","delantero",7,6);
-    j.VerNombre();
-    j.VerPosicion();
-    j.VerDorsal();
-    j.InAgresividad();*/
+    e1.print();
+}
+
+
 
 
 
