@@ -1,12 +1,14 @@
 #ifndef JUGADOR_H
 #define JUGADOR_H
 #include <iostream>
+
 using namespace std;
 
 class jugador
 {
     public:
         jugador();
+
         string nombre,posicion;
         int numero,agresividad;
         jugador(string n,string po, int num,int a);
@@ -15,8 +17,8 @@ class jugador
         void InAgresividad();
         void VerPosicion();
 
-        void setNombre(string n) {
-            nombre = n;
+        void setNombre(string name) {
+            nombre = name;
         }
         void setPos(string pos){
             posicion = pos;

@@ -19,10 +19,11 @@ int equipo::getTam()
 
 void equipo::print()
 {
-    jugadores[i].setNombre();
-    /*jugadores[i].VerNombre();
+    for(int i=0;i<tam;i++) {
+    jugadores[i].VerDorsal();
+    jugadores[i].VerNombre();
     jugadores[i].VerPosicion();
-    jugadores[i].InAgresividad();*/
-
+    jugadores[i].InAgresividad();
+    }
 }
 

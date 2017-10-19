@@ -11,14 +11,14 @@ int main()
     e1.getTam();
 
     for(int i=0;i<e1.getTam();i++){
-        e1.jugadores[0].setNombre("griezmann");
-        e1.jugadores[0].setPos("delantero");
-        e1.jugadores[0].setNum(i);
-        e1.jugadores[0].setAgg(6);
+        e1.jugadores[i].setNombre("griezmann");
+        e1.jugadores[i].setPos("delantero");
+        e1.jugadores[i].setNum(i);
+        e1.jugadores[i].setAgg(6);
 
     }
-
     e1.print();
+
 }
 
 

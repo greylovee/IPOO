@@ -20,3 +20,24 @@
 	"jugador.h"
 	<iostream>
 
+1508430469 source:c:\users\alumno-d\desktop\equipo\main.cpp
+	<iostream>
+	"jugador.h"
+	"equipo.h"
+	<string.h>
+
+1508428714 c:\users\alumno-d\desktop\equipo\include\jugador.h
+	<iostream>
+
+1508430485 c:\users\alumno-d\desktop\equipo\include\equipo.h
+	"jugador.h"
+	<iostream>
+
+1508428994 source:c:\users\alumno-d\desktop\equipo\src\equipo.cpp
+	"equipo.h"
+	<iostream>
+
+1508419028 source:c:\users\alumno-d\desktop\equipo\src\jugador.cpp
+	"jugador.h"
+	<iostream>
+
