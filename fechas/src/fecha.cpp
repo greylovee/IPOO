@@ -5,9 +5,10 @@ using namespace std;
 fecha::fecha(int m,int a,int d )
 
 {
+    dia=d;
     mes=m;
     anho=a;
-    dia=d;
+
 }
 
 void fecha::bisiesto()
@@ -43,11 +44,17 @@ void fecha:: fechatrue()
                 cout<<"fecha correcta"<<endl;
             else
                 cout<<"fecha incorrecta"<<endl;
-            }
-        else
+
+
+        case 2:
+            if (dia>=1&& dia <=28)
+                cout<<"fecha correcta"<<endl;
+            else
+                cout<<"fecha incorrecta"<<endl;
+    }
+    else
             cout<<"fecha incorrecta"<<endl;
 
 
 }
-
 
