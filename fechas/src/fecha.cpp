@@ -24,8 +24,30 @@ void fecha:: fechatrue()
     switch (mes)
     {
         case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            if(dia >=1 && dia <=31)
+                cout<<"fecha correcta"<<endl;
+            else
+                cout<<"fecha incorrecta"<<endl;
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            if (dia >=1 && dia <=30)
+                cout<<"fecha correcta"<<endl;
+            else
+                cout<<"fecha incorrecta"<<endl;
             }
+        else
+            cout<<"fecha incorrecta"<<endl;
 
 
 }
+
 
