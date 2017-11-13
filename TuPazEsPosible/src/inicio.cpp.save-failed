@@ -1,0 +1,13 @@
+#include "inicio.h"
+#include <iostream>
+using namespace std;
+inicio::inicio()
+{
+
+}
+void inicio::getlineU()
+{
+    cout<<"INGRESE SU NOMBRE DE USUARIO:  "<<endl;
+    cin>>usuario;
+
+}

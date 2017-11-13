@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1510545406 source:c:\users\administrador\desktop\tupazesposible\main.cpp
+	<iostream>
+	"inicio.h"
+	"menu.h"
+
+1510530269 source:c:\users\administrador\desktop\tupazesposible\src\altas.cpp
+	"altas.h"
+
+1510530269 c:\users\administrador\desktop\tupazesposible\include\altas.h
+
+1510530282 source:c:\users\administrador\desktop\tupazesposible\src\bajas.cpp
+	"bajas.h"
+
+1510530282 c:\users\administrador\desktop\tupazesposible\include\bajas.h
+
+1510530305 source:c:\users\administrador\desktop\tupazesposible\src\buscar.cpp
+	"buscar.h"
+
+1510530304 c:\users\administrador\desktop\tupazesposible\include\buscar.h
+
+1510530325 source:c:\users\administrador\desktop\tupazesposible\src\entrada.cpp
+	"entrada.h"
+
+1510530324 c:\users\administrador\desktop\tupazesposible\include\entrada.h
+
+1510530314 source:c:\users\administrador\desktop\tupazesposible\src\ficha.cpp
+	"ficha.h"
+
+1510530313 c:\users\administrador\desktop\tupazesposible\include\ficha.h
+
+1510587703 source:c:\users\administrador\desktop\tupazesposible\src\menu.cpp
+	"menu.h"
+	<iostream>
+
+1510545544 c:\users\administrador\desktop\tupazesposible\include\menu.h
+	<iostream>
+
+1510530293 source:c:\users\administrador\desktop\tupazesposible\src\salida.cpp
+	"salida.h"
+
+1510530292 c:\users\administrador\desktop\tupazesposible\include\salida.h
+
+1510588584 source:c:\users\administrador\desktop\tupazesposible\src\inicio.cpp
+	"inicio.h"
+	<iostream>
+	<cstdlib>
+	<conio.h>
+
+1510544009 c:\users\administrador\desktop\tupazesposible\include\inicio.h
+	<string>
+	<iostream>
+
