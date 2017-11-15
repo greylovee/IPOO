@@ -1,13 +1,18 @@
 # depslib dependency file v1.0
-1510545406 source:c:\users\administrador\desktop\tupazesposible\main.cpp
+1510670484 source:c:\users\administrador\desktop\tupazesposible\main.cpp
 	<iostream>
 	"inicio.h"
 	"menu.h"
-
-1510530269 source:c:\users\administrador\desktop\tupazesposible\src\altas.cpp
 	"altas.h"
 
-1510530269 c:\users\administrador\desktop\tupazesposible\include\altas.h
+1510672671 source:c:\users\administrador\desktop\tupazesposible\src\altas.cpp
+	"altas.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1510673070 c:\users\administrador\desktop\tupazesposible\include\altas.h
+	<iostream>
 
 1510530282 source:c:\users\administrador\desktop\tupazesposible\src\bajas.cpp
 	"bajas.h"
@@ -29,11 +34,12 @@
 
 1510530313 c:\users\administrador\desktop\tupazesposible\include\ficha.h
 
-1510587703 source:c:\users\administrador\desktop\tupazesposible\src\menu.cpp
+1510672563 source:c:\users\administrador\desktop\tupazesposible\src\menu.cpp
 	"menu.h"
 	<iostream>
+	<cstdlib>
 
-1510545544 c:\users\administrador\desktop\tupazesposible\include\menu.h
+1510616683 c:\users\administrador\desktop\tupazesposible\include\menu.h
 	<iostream>
 
 1510530293 source:c:\users\administrador\desktop\tupazesposible\src\salida.cpp
@@ -41,7 +47,7 @@
 
 1510530292 c:\users\administrador\desktop\tupazesposible\include\salida.h
 
-1510588584 source:c:\users\administrador\desktop\tupazesposible\src\inicio.cpp
+1510672563 source:c:\users\administrador\desktop\tupazesposible\src\inicio.cpp
 	"inicio.h"
 	<iostream>
 	<cstdlib>

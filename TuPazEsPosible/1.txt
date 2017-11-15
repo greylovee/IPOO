@@ -1,0 +1,6 @@
+NOMBRE   : dfsdf
+APELLIDO :asfsad
+F.NACIMIENTO  :132133
+DIRECCION :fsdfsd
+TELEFONO :34324
+INFORMACION:gjdjffidfjdi

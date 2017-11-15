@@ -5,10 +5,13 @@ using namespace std;
 
 class menu
 {
-    public:
-        int opc;
-        menu();
-        void Menu();
+private:
+    int opc;
+public:
+    menu();
+
+    void Menu();
+    void validar();
 };
 
 #endif // MENU_H

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <conio.h>
-#define USER "mariano"
+#define USER "MARIANO"
 #define PASS "holi.holi"
 using namespace std;
 inicio::inicio()
